@@ -1,0 +1,6 @@
+aiohttp
+apscheduler
+pytz
+python-chess
+cairosvg
+tqdm

@@ -1,0 +1,6 @@
+env/
+stockfish/
+
+*.json
+*.csv
+*.pgn
