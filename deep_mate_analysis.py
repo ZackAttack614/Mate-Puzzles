@@ -56,7 +56,7 @@ parser.add_argument("--threads", type=int, default=10,
                     help="Number of threads for Stockfish (default: 10).")
 parser.add_argument("--hash", type=int, default=8192,
                     help="Hash size for Stockfish in MB (default: 8192).")
-parser.add_argument("--db", type=str, default="../puzzles.db",
-                    help="Path to the SQLite database (default: ../puzzles.db).")
+parser.add_argument("--db", type=str, default="puzzles.db",
+                    help="Path to the SQLite database (default: puzzles.db).")
 args = parser.parse_args()
 update_puzzles(args.engine, args.time, args.depth, args.threads, args.hash, args.db)
